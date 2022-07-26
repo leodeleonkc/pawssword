@@ -109,7 +109,6 @@ hr {
   font-family: inherit;
   border: none;
   border-radius: 10px;
-  letter-spacing: 1px;
   font-weight: 700;
   display: inline-block;
   touch-action: manipulation;
@@ -121,6 +120,7 @@ hr {
   height: 59px;
   line-height: 62px;
   width: 316px;
+  letter-spacing: 1px;
   background: #ff5b7a;
 }
 
