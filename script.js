@@ -138,12 +138,16 @@ chirpUp.addEventListener("click", function () {
 });
 
 passwordEl.addEventListener("click", function () {
-  copyCat.focus();
-  copyCat.select();
-  navigator.clipboard.writeText(copyCat.value);
-  copyPassEl.innerHTML = `Copied!`;
-  copyPassEl.classList.add("tap-animate");
+  if (copyCat.value != "none") {
+    copyCat.focus();
+    copyCat.select();
+    navigator.clipboard.writeText(copyCat.value);
+    copyPassEl.innerHTML = `Copied!`;
+    copyPassEl.classList.add("tap-animate");
 
-  catChatDone.classList.add("hidden");
-  catChatCopied.classList.remove("hidden");
+    catChatDone.classList.add("hidden");
+    catChatCopied.classList.remove("hidden");
+  } else {
+    passwordEl.textContent = "Click above!";
+  }
 });
