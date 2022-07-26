@@ -1,0 +1,172 @@
+html,
+body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  touch-action: manipulation;
+}
+
+body {
+  margin: 1rem;
+  font-family: "Baloo Tamma 2", cursive;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  background: #5cc0d1;
+}
+
+.container {
+  display: flex;
+  max-width: 428px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  color: #fee6ce;
+  font-size: 53px;
+  font-weight: 800;
+  text-align: left;
+  margin: 0 5%;
+  line-height: 3rem;
+}
+
+hr {
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 1px;
+  background-color: #5cc0d1;
+  border: none;
+}
+.secure {
+  color: #ff7f2f;
+  font-weight: 900;
+}
+
+.mr-popoki,
+img {
+  position: relative;
+  width: 319px;
+  animation: floating 3s ease-in-out infinite;
+}
+
+.cat-chat {
+  width: 64px;
+  position: absolute;
+  margin: 30px 50px;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 7px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: #1b444e;
+  text-align: left;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  margin: 8%;
+  line-height: 1.5rem;
+}
+
+.mr-popoki-name {
+  color: #fee6ce;
+  font-weight: 800;
+}
+
+.hairball {
+  color: #425d64;
+  font-style: italic;
+}
+
+.so-strong {
+  font-weight: 800;
+}
+
+.generate-btn,
+.password-btn {
+  font-family: inherit;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: inline-block;
+  touch-action: manipulation;
+}
+
+.generate-btn {
+  color: white;
+  font-size: 24px;
+  height: 59px;
+  line-height: 62px;
+  width: 316px;
+  background: #ff5b7a;
+}
+
+.generate-btn:hover,
+.generate-btn:active {
+  background: #da2144;
+  color: #5cc0d1;
+  cursor: pointer;
+}
+
+.tap-animate {
+  animation: fadeIn ease 1s;
+}
+
+.password-btn {
+  color: #ff5b7a;
+  font-size: 32px;
+  height: 65px;
+  line-height: 70px;
+  width: 316px;
+  background: #fee6ce;
+}
+
+.password-btn:active {
+  background-color: #1b444e;
+}
+
+.password-btn:hover {
+  cursor: pointer;
+}
+
+.copy-to-clipboard {
+  color: #4a7e8a;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.text-bottom {
+  /* margin-bottom: -2rem; */
+}
+
+#footer {
+  margin: 0 0 2rem 0;
+  color: #d4e6e2;
+  letter-spacing: 0.05rem;
+}
+
+.hidden {
+  display: none;
+}
