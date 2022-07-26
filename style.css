@@ -44,10 +44,12 @@ hr {
   font-weight: 900;
 }
 
-.mr-popoki,
-img {
+.kitty {
   position: relative;
   width: 319px;
+}
+
+.mr-popoki {
   animation: floating 3s ease-in-out infinite;
 }
 
@@ -155,10 +157,6 @@ img {
   font-weight: 800;
   font-size: 12px;
   letter-spacing: 0.5px;
-}
-
-.text-bottom {
-  /* margin-bottom: -2rem; */
 }
 
 #footer {
