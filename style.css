@@ -82,6 +82,7 @@ hr {
 
 .subtitle {
   font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   color: #1b444e;
   text-align: left;
   font-size: 18px;
@@ -91,12 +92,12 @@ hr {
 }
 
 .mr-popoki-name {
-  color: #fee6ce;
+  color: #ff5b7a;
   font-weight: 800;
 }
 
 .hairball {
-  color: #425d64;
+  /* color: #425d64; */
   font-style: italic;
 }
 
