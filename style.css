@@ -8,7 +8,7 @@ body {
 body {
   margin: 1rem;
   font-family: "Baloo Tamma 2", cursive;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.08rem;
   text-align: center;
   background-color: #5cc0d1;
   /* background: #83cdda; */
@@ -87,7 +87,7 @@ hr {
   color: #21535f;
   text-align: left;
   font-size: 18px;
-  letter-spacing: 1.2px;
+  /* letter-spacing: 1.2px; */
   margin: 8%;
   line-height: 1.5rem;
 }
