@@ -10,7 +10,8 @@ body {
   font-family: "Baloo Tamma 2", cursive;
   letter-spacing: 0.1rem;
   text-align: center;
-  background: #5cc0d1;
+  background-color: #5cc0d1;
+  /* background: #83cdda; */
 }
 
 .container {
@@ -40,7 +41,7 @@ hr {
   border: none;
 }
 .secure {
-  color: #ff7f2f;
+  color: #f79151;
   font-weight: 900;
 }
 
@@ -83,7 +84,7 @@ hr {
 .subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  color: #1b444e;
+  color: #21535f;
   text-align: left;
   font-size: 18px;
   letter-spacing: 1.2px;
@@ -92,7 +93,7 @@ hr {
 }
 
 .mr-popoki-name {
-  color: #ff5b7a;
+  color: #fee6ce;
   font-weight: 800;
 }
 
