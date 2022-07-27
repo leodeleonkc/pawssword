@@ -7,11 +7,10 @@ body {
 
 body {
   margin: 1rem;
-  font-family: "Baloo Tamma 2", cursive;
+  font-family: "Baloo Tamma 2", sans-serif;
   letter-spacing: 0.08rem;
   text-align: center;
   background-color: #5cc0d1;
-  /* background: #83cdda; */
 }
 
 .container {
@@ -55,6 +54,7 @@ hr {
 }
 
 .cat-chat {
+  /* width: 64px; */
   position: absolute;
   margin: 30px 50px;
 }
@@ -86,7 +86,7 @@ hr {
   color: #21535f;
   text-align: left;
   font-size: 18px;
-  /* letter-spacing: 1.2px; */
+  letter-spacing: 1.2px;
   margin: 8%;
   line-height: 1.5rem;
 }
@@ -116,6 +116,7 @@ hr {
 }
 
 .generate-btn {
+  margin-top: 5%;
   color: white;
   font-size: 24px;
   height: 59px;
@@ -137,6 +138,7 @@ hr {
 }
 
 .password-btn {
+  margin-top: 5%;
   color: #ff5b7a;
   font-size: 32px;
   height: 65px;
@@ -161,7 +163,7 @@ hr {
 }
 
 #footer {
-  margin: 0 0 2rem 0;
+  margin: 2rem 0 2rem 0;
   color: #d4e6e2;
   letter-spacing: 0.05rem;
 }
