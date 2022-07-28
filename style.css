@@ -191,7 +191,7 @@ hr {
 
 .copy-to-clipboard {
 position: absolute;
-margin-left: auto;
+margin: 0 auto;
   color: #4a7e8a;
   font-weight: 800;
   font-size: 12px;
