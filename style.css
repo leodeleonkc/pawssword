@@ -80,6 +80,40 @@ hr {
   }
 }
 
+#whisker-1,
+#whisker-2,
+#whisker-3 {
+  animation: whiskers 1.5s ease infinite alternate-reverse;
+  transform-origin: 100% bottom;
+  transform-box: fill-box;
+}
+
+@keyframes whiskers {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+
+#whisker-4,
+#whisker-5,
+#whisker-6 {
+  animation: whiskers-2 1.5s ease infinite alternate-reverse;
+  transform-origin: 0% bottom;
+  transform-box: fill-box;
+}
+
+@keyframes whiskers-2 {
+  from {
+    transform: rotateZ(10deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+
 .subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
